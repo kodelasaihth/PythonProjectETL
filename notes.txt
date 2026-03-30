@@ -1,0 +1,13 @@
+config.yaml → used by Python (Prefect tasks)
+        ↓
+prefect.yaml → controls flow deployment
+        ↓
+deployments.yaml → environment-based runs
+        ↓
+dbt_project.yml → dbt behavior
+        ↓
+schema.yml → data quality rules
+        ↓
+profiles.yml → Snowflake connection
+        ↓
+ci.yml → automation + testing

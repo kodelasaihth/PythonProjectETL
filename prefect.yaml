@@ -1,0 +1,7 @@
+name: etl-snowflake-project
+
+deployments:
+  - name: etl-job
+    entrypoint: flows/main_flow.py:main_flow
+    work_pool:
+      name: default

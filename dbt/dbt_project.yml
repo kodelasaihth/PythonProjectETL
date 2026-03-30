@@ -1,0 +1,14 @@
+name: 'etl_project'
+version: '1.0'
+config-version: 2
+
+profile: 'snowflake_profile'
+
+model-paths: ["models"]
+
+models:
+  etl_project:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

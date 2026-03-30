@@ -1,0 +1,20 @@
+env: dev
+
+snowflake:
+  account: ""
+  user: ""
+  password: ""
+  warehouse: "COMPUTE_WH"
+  database: "ANALYTICS_DB"
+  schema: "PUBLIC"
+  role: "ACCOUNTADMIN"
+
+pipeline:
+  raw_table: "raw_events"
+  stream_name: "raw_stream"
+
+dbt:
+  project_dir: "./dbt"
+
+alerts:
+  slack_webhook: "https://hooks.slack.com/services/xxx"

@@ -1,0 +1,1 @@
+{"_invocation_id": "909f295b-853d-4676-be58-d45206d561af", "linked": {"0": {"name": "model.etl_project.fact_events", "type": "model"}, "1": {"name": "model.etl_project.stg_events", "type": "model", "succ": [0]}}}
