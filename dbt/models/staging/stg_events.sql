@@ -13,4 +13,5 @@ SELECT
 
     $1:salary::float          AS salary
 
-FROM userdata_001
+FROM userdata
+
